@@ -17,9 +17,18 @@ count = ages.find_index(ages[-1]) + 1
 #   p ages.find_index(age)
 # end
 
-#finding the average 
+#finding the average
 average = (sum * 1.0) / count
 
-p average
+p avg = average
+
+#finding the difference between each age and the average
+new_ages = []
+
+ages.each do |age|
+  new_ages << (age - avg)
+end
+
+p new_ages # ugh idk how to round this
 
 # When you find the standard deviation, print it out
