@@ -58,6 +58,8 @@ product = sum_sq/ count
 
 p product
 
-p std_dev = product ** (0.5)
+std_dev = (product ** (0.5)) * 1.00
 
 # When you find the standard deviation, print it out
+
+p std_dev
