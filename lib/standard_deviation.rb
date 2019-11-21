@@ -31,4 +31,33 @@ end
 
 p new_ages # ugh idk how to round this
 
+# new_ages.each do |age|
+#   new_ages << (age * 1.0)
+# end
+#
+# p new_ages
+
+#finding the squares
+new_ages_sq = []
+
+new_ages.each do |age|
+  new_ages_sq << (age ** 2)
+end
+
+p new_ages_sq
+
+sum_sq = 0
+
+new_ages_sq.each do |age|
+  sum_sq += age
+end
+
+p sum_sq
+
+product = sum_sq/ count
+
+p product
+
+p std_dev = product ** (0.5)
+
 # When you find the standard deviation, print it out
